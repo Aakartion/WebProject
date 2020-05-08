@@ -1,0 +1,122 @@
+footer
+{
+   width: 100%;
+   display: block;
+   overflow: hidden;
+   padding: 0px 0;
+   box-sizing: border-box;
+   background-color: #18181a; 
+   border: 1px solid purple;
+   display: flex; 
+}
+
+.icons
+{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.social
+{
+    width: calc(21.66667% - 20px);
+    float: right;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.social a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    float: right;
+}
+
+.social h1
+{
+    color: white;
+    font-size: 15px;
+}
+
+.social li
+{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.social span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.conditions
+{
+    width: calc(21.66667% - 20px);
+    margin-right: 10px;
+    float: right;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.conditions:last-child
+{
+    margin-right: 0;
+}
+
+.conditions h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.conditions a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+
+
+@media screen and (max-width:800px)
+{
+    footer
+    {
+        height: auto;
+        display: inline-block;
+    }
+    .icons
+    {
+        width: 100%;
+        float: right;
+        border: 1px solid yellow;
+    }
+
+    .conditions, .social
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }    
+}

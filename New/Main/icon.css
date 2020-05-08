@@ -1,0 +1,55 @@
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.linicon
+{
+    flex:1;
+    border:1px solid yellow;
+    order: 1;
+}
+
+.linicon img
+{
+    
+    height: 30px;
+    width: 30px;
+}
+
+.instaicon
+{
+    flex: 1;
+    order: 3;
+    border: 1px solid pink;
+}
+
+.instaicon img
+{
+    height: 30px;
+    width: 30px;
+}
+
+.fbicon
+{
+    border: 1px solid greenyellow;
+    flex: 1;
+    order: 2;
+}
+
+.fbicon img
+{
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width:800px)
+{
+    .icons
+    {
+       
+    }
+}
